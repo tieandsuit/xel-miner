@@ -25,21 +25,13 @@ then
   CONF_NB_THREADS="-t ${miner_number_of_threads}"
 fi
 
-CONF_PORT="17876"
-if [[ ! -z ${miner_testnet+x} && "${miner_testnet}" == 'true' ]]
+CONF_NODE="http://computation-01.xel.org:17876"
+if [ ! -z ${miner_node+x} ]
 then
-  echo "set miner_testnet=${miner_testnet}"
-  CONF_PORT="16876"
+  echo "set miner_node=${miner_node}"
+  CONF_NODE="${miner_node}"
 fi
 
-#echo "local=${miner_use_local_node}"
-CONF_NODE_ADD="http://computation-01.xel.org:$CONF_PORT"
-if [[ ! -z ${miner_use_local_node} && "${miner_use_local_node}" == 'true' ]]
-then
-  echo "set miner_use_local_node=${miner_use_local_node}"
-  CONF_NODE_ADD="http://172.41.0.8:$CONF_PORT"
-fi
+echo "start miner with ${CONF_NB_THREADS} thread pointing to ${CONF_NODE}"
 
-echo "xel_miner ${CONF_NB_THREADS} ${CONF_WALLET_PASSPHRASE} -D -o ${CONF_NODE_ADD} ${CONF_API_PASS}"
-
-./xel_miner ${CONF_NB_THREADS} -P "${CONF_WALLET_PASSPHRASE}" -D -o "${CONF_NODE_ADD}" "${CONF_API_PASS}"
+./xel_miner ${CONF_NB_THREADS} -P "${CONF_WALLET_PASSPHRASE}" -D -o "${CONF_NODE}" "${CONF_API_PASS}"
