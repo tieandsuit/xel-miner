@@ -1,0 +1,14 @@
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\launcher.exe
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\launcher.pdb
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\Newtonsoft.Json.dll
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\Newtonsoft.Json.pdb
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\bin\Release\Newtonsoft.Json.xml
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.Form1.resources
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.Properties.Resources.resources
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.csproj.GenerateResource.cache
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.csproj.CoreCompileInputs.cache
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.csproj.CopyComplete
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.exe
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.pdb
