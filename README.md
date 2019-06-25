@@ -71,6 +71,7 @@ make install
 
 ### run
 
+
 ##### using CPU:
 
 `./xel_miner -t <num_threads> -P "<secret_phrase>" -D`
@@ -90,6 +91,12 @@ use `./xel_miner -h` to see a full list of options.
 ## Run XEL Miner from docker installer
 
 check the dedicated git project : https://github.com/xel-software/xel-installer-docker
+
+----
+## Windows GUI Miner
+move files from this folder to xel_miner folder and rund launcher.exe 
+
+https://github.com/tieandsuit/xel-miner/tree/master/launcher/bin/Release
 
 
 ----
