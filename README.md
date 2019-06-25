@@ -94,7 +94,7 @@ check the dedicated git project : https://github.com/xel-software/xel-installer-
 
 ----
 ## Windows GUI Miner
-move files from this folder to xel_miner folder and rund launcher.exe 
+move files from this folder to xel_miner folder and run launcher.exe 
 
 https://github.com/tieandsuit/xel-miner/tree/master/launcher/bin/Release
 
